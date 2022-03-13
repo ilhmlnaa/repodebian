@@ -1,3 +1,10 @@
+auto enp0s3
+iface enp0s3 inet dhcp
+
+auto enp0s8
+iface enp0s8 static
+	address 192.168.23.1/24
+
 nano /etc/systemd/system/rc-local.service
 
 [Unit]
